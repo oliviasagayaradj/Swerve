@@ -300,7 +300,6 @@ public class Drive extends Subsystem {
             pidControllerRot.setPID(Constants.DT_ROT_PID_P,
                     Constants.DT_ROT_PID_I, Constants.DT_ROT_PID_D);
         } else {
-            // I Zone
             pidControllerRot.setPID(Constants.DT_ROT_PID_P, 0,
                     Constants.DT_ROT_PID_D);
             pidControllerRot.setContinuous(true);
